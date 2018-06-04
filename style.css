@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    border: solid 1px blue;
+    display: flex;
+}
+
+.cell {
+    border: solid 1px red;
+    width: 80px;
+    height: 80px;
+}
+
+#grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.yay {
+    background-color: orange;
+}
